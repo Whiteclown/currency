@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="sorting">Sorting</string>
+	<string name="remove_currency_from_favourites">Remove currency from favourites</string>
+	<string name="add_currency_to_favourites">Add currency to favourites</string>
+	<string name="error_dialog_title">Error</string>
+	<string name="error_dialog_neutral_btn">OK</string>
+</resources>

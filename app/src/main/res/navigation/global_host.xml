@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/global_host"
+	app:startDestination="@id/popularFragment">
+
+	<fragment
+		android:id="@+id/popularFragment"
+		android:name="com.bobrovskii.popular.ui.PopularFragment"
+		android:label="PopularFragment" >
+		<action
+			android:id="@+id/action_popularFragment_to_sortingFragment"
+			app:destination="@id/sortingFragment" />
+	</fragment>
+	<fragment
+		android:id="@+id/favoriteFragment"
+		android:name="com.bobrovskii.favorite.ui.FavoriteFragment"
+		android:label="FavoriteFragment" >
+		<action
+			android:id="@+id/action_favoriteFragment_to_sortingFragment"
+			app:destination="@id/sortingFragment" />
+	</fragment>
+	<fragment
+		android:id="@+id/sortingFragment"
+		android:name="com.bobrovskii.sorting.ui.SortingFragment"
+		android:label="SortingFragment" />
+</navigation>

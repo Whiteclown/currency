@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="alphabet_inc">Alphabet inc</string>
+	<string name="alphabet_dec">Alphabet dec</string>
+	<string name="value_inc">Value inc</string>
+	<string name="value_dec">Value dec</string>
+	<string name="type_of_sort">Type of sort</string>
+</resources>

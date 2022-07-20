@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="208dp"
+		android:text="@string/type_of_sort"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.498"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<RadioGroup
+		android:id="@+id/rg_sort"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView">
+
+		<RadioButton
+			android:id="@+id/rbtn_alb_inc"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/alphabet_inc" />
+
+		<RadioButton
+			android:id="@+id/rbtn_alb_dec"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/alphabet_dec" />
+
+		<RadioButton
+			android:id="@+id/rbtn_val_inc"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/value_inc" />
+
+		<RadioButton
+			android:id="@+id/rbtn_val_dec"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/value_dec" />
+	</RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

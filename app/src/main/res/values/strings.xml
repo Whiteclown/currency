@@ -1,0 +1,5 @@
+<resources>
+	<string name="app_name">currency</string>
+	<string name="bottom_popular_title">Popular</string>
+	<string name="bottom_favorite_title">Favorite</string>
+</resources>
