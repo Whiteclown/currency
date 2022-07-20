@@ -52,4 +52,14 @@ object Dependencies {
 
 		const val CONSTRAINT = "androidx.constraintlayout:constraintlayout:2.1.3"
 	}
+
+	object Room {
+
+		private const val roomVersion = "2.4.2"
+
+		const val RUNTIME = "androidx.room:room-runtime:$roomVersion"
+		const val ANNOTATION_COMPILER = "androidx.room:room-compiler:$roomVersion"
+		const val KAPT_COMPILER = "androidx.room:room-compiler:$roomVersion"
+		const val KTX = "androidx.room:room-ktx:$roomVersion"
+	}
 }
